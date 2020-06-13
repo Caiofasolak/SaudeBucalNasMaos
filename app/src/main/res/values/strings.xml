@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Saúde Bucal Nas Mãos</string>
+    <string name="auto_cuidado">
+"A escovação retira a placa bacteriana ou biofilme e os resíduos de alimentos, ajudando a prevenir a cárie dentária.
+Escove os dentes com movimentos suaves e curtos, concentrando na limpeza de cada setor da boca (parte anterior e posterior).
+Prefira escovas com cerdas macias. As escovas de cerda média ou dura podem machucar a gengiva e causar sangramento.
+Troque a escova dentária quando notar que as cerdas não limpam mais direito ou estão ‘descabeladas’ demais.
+A melhor escovação é realizada junto com creme dental com flúor."
+    </string>
+    <string name="cuidado_titulo">
+        "Uma das maneiras mais eficazes de prevenir a dor dentária é cuidar da higienização.
+Vamos ver o passo a passo para um boa higiene bucal?"
+    </string>
+    <string name="cuidado_fragment1">
+        "Não esqueça de escovar a língua e passar o fio dental, diariamente! Se não tiver fio dental, substitua por algum item que possa ser usado entre os dentes.
+A escovação deve ser realizada 3x/dia e principalmente, à noite, antes de dormir.
+Além de evitar o famoso mau hálito, o uso regular do fio limpa a gengiva, evitando a gengivite (quando a gengiva sangra)"
+    </string>
+    <string name="cuidado_fragment2">
+        "Dobre o fio dental no formato da letra C e deslize de cima para baixo nas laterais de cada dente.
+Não se esqueça de passar o fio dental nas partes de trás dos seus dentes, nos lados esquerdo e direito, em cima e em baixo."
+    </string>
+    <string name="cuidado_fragment3">
+        "Então, além da higiene bucal para evitar a presença de cárie dentária e a dor dentária. Veja outras dicas para manter a sua saúde bucal em dia.
+A famosa frase: A saúde começa pela boca! Ela é verdadeira, a alimentação saudável contribui para a saúde dos dentes e gengivas.
+Os alimentos como o queijo, o leite, a fruta e os vegetais protegem contra a cárie dentária.
+A cenoura e outros vegetais/verduras, como a alface, o tomate ou os brócolis e as frutas frescas são ricos em água, fibra, vitaminas e minerais. Para comermos estes alimentos, o tempo de mastigação é maior, ou seja, há mais produção de saliva. A saliva ajuda a limpar os dentes e a protegê-los das bactérias."
+    </string>
+    <string name="cuidado_subtitulo">
+        "Além de alimentos com açúcar, há outros alimentos desaconselhados?"
+    </string>
+    <string name="cuidado_fragment4">
+         "Sim! Os alimentos com farinhas muito refinadas, como bolos, bolachas, folhados, batatas fritas, flocos de cereais açucarados, também contribuem para a cárie dentária.
+Por quê? Alguns destes alimentos têm açúcar mas, mesmo os que não têm, como as batatas fritas, são transformados em açúcar na boca. Além disso, como ficam “presos” aos dentes durante muito tempo, vão causar mais danos, se não forem removidos com a escovação.
+Se possível, deixe este tipo de alimento para o fim de semana ou o dia da ‘alegria’.
+Ainda, há bebidas e sucos com bastante açúcar e que podem provocar a ocorrência de cárie dentária.
+Dê preferência a suco natural e a água."
+    </string>
+    <string name="obs">
+        "Fique atento com a sua saúde bucal:"
+    </string>
+    <string name="obs1">
+        "Meu dente está doendo. O que fazer agora?"
+    </string>
+    <string name="obs_fragment1">
+        "Procure o dentista para ele avaliar o seu caso."
+    </string>
+    <string name="obs2">
+        "Minha gengiva está sangrando muito. O que pode ser?"
+    </string>
+    <string name="obs_fragment2">
+        "Pode ser excesso de alimentos entre os dentes. Quando você não usa o fio dental ou equivalente, a gengiva sangra. Gengiva saudável não sangra."
+    </string>
+    <string name="obs3">
+        "Meu dente caiu da boca. O que posso fazer?"
+    </string>
+    <string name="obs_fragment3">
+        "Armazena o dente ou o fragmento imediatamente em leite gelado, ou soro fisiológico ou a saliva. Não tente limpá-lo ou recolocá-lo na boca. Procurar atendimento odontológico o mais rápido possível. O dentista irá ajuda-lo na situação."
+    </string>
+    <string name="obs4">
+        "Estou com feridas na boca. O que pode ser?"
+    </string>
+    <string name="obs_fragment4">
+        "Podem aparecer várias feridas na boca, podendo ser Herpes, aftas, candidíase ou simplesmente machucado, porém, é importante avaliar o tempo que permanecem. Se passar de duas semanas, faça uma visita ao dentista."
+    </string>
+    <string name="locais_fragment">
+        "Saiba quais os Centros de Saúde possuem dentista 12 horas por dia de segunda a sexta-feira.  Procure qual seja referência da sua casa."
+    </string>
+    <string name="locais_desc">
+        "Para caso de urgência:
+        UPA Norte
+        Rua Oscar Lobo Pereira, 270 - Primeiro de Maio
+        (31) 3277-6705
+        UPA Oeste
+        Av. Barão Homem de Melo, 1710
+        (31) 3277-7044/6875/6871.
+        HOSPITAL ODILON BEHRENS
+        R. Formiga, 50 - São Cristóvão, Belo Horizonte - MG,
+        31110-430
+        Aberto 24 horas
+        (31) 3277-6198"
+    </string>
+    <string name="vazio">""</string>
+    <string name="trauma_dentario">"Traumatismo Dentário"</string>
+    <string name="aftas">"Aftas"</string>
+    <string name="pericoronarite">"Pericoronarite"</string>
+    <string name="tirismo">"Trismo"</string>
+    <string name="gengivite">"Gengivite"</string>
+    <string name="pulpite">"Pulpite"</string>
+</resources>
