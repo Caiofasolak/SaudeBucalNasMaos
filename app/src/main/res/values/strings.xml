@@ -103,7 +103,22 @@ Dê preferência a suco natural e a água."
     <string name="Gengivite">"A gengiva está sangrando?"</string>
     <string name="Trismo">"Está com limitação de abertura bucal?"</string>
     <string name="Pulpite">"Está com dor no dente?"</string>
+    <string name="AftasN">"Ferida na boca há mais de 14 dias: procurar atendimento odontológico"</string>
+    <string name="AftasS">"São esbranquiçadas, com bordas vermelhas, dolorosas, que aparecem na superfície da mucosa bucal, na língua, no lábio interno, na bochecha, no palato (céu da boca) e raramente na região da garganta?"</string>
+    <string name="AftasSS">" Você consumiu alimentos mais condimentados, frutas cítricas/ácidas; vivenciou por estresse ou mudanças hormonais nos ciclos da mulher; teve pequeno trauma mecânico por pontas pontiagudas ou escovas dentais; teve queimaduras por alimentos sólidos ou líquidos; faz uso de alguns medicamentos"</string>
+    <string name="AftasSN">"Procurar atendimento odontológico"</string>
+    <string name="AftasSSS">"As aftas : aparecem em qualquer idade e com mais frequência no sexo feminino. Por tratar-se de um problema frequente e sem complicações, embora as aftas sejam bastante incômodas, algumas pessoas deixam de observar que as lesões devem desaparecer num período de 10 a 14 dias.\n
+Caso o problema persista por mais tempo, devem procurar os serviços de saúde para uma avaliação mais detalhada.\n
+Como forma de tratamento, destaca-se a higiene bucal adequada, alimentação menos ácida, com sucos naturais não cítricos, uso de enxaguatórios sem álcool; pomadas ou cremes e analgésicos devem ser prescritos pelo dentista e servem para aliviar sintomatologia."</string>
+    <string name="AftasSSN">"Procurar atendimento odontológico."</string>
+    <string name="PericoronariteS">"Você tem entre 20 a 29 anos?"</string>
+    <string name="PericoronariteSS">"A pericoronarite é um estado inflamatório que envolve o tecido mole localizado ao redor da coroa de um dente, geralmente um terceiro molar (siso) inferior em processo de erupção ou semi-incluso.\n
+Acomete mais pessoas de 20 a 29 anos.
+O tratamento deve ser indicado pelo cirurgião dentista, que poderá ser conservador nos casos em que a pericoronarite está restrita e bem localizada.\n
+Nos casos onde a pericoronarite é mais severa, é necessário antibioticoterapia."</string>
+    <string name="PericoronariteN">"Procure um dentista."</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
