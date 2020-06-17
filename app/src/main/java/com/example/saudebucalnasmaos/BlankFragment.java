@@ -23,12 +23,63 @@ public class BlankFragment extends Fragment{
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_blank, container, false);
+
         Button traumaBtn = (Button) view.findViewById(R.id.traumatismo_button);
         traumaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.frameLayout, new TraumaFragment());
+                fragmentTransaction.commit();
+            }
+        });
+
+        Button aftasBtn = (Button) view.findViewById(R.id.aftas_button);
+        aftasBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, new AftasFragment());
+                fragmentTransaction.commit();
+            }
+        });
+
+        Button pericoronariteBtn = (Button) view.findViewById(R.id.pericoronarite_button);
+        pericoronariteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, new PericoronariteFragment());
+                fragmentTransaction.commit();
+            }
+        });
+
+        Button gengiviteBtn = (Button) view.findViewById(R.id.gengivite_button);
+        gengiviteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, new GengiviteFragment());
+                fragmentTransaction.commit();
+            }
+        });
+
+        Button trismoBtn = (Button) view.findViewById(R.id.trismo_button);
+        trismoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, new TrismoFragment());
+                fragmentTransaction.commit();
+            }
+        });
+
+        Button pulpiteBtn = (Button) view.findViewById(R.id.pulpite_button);
+        pulpiteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, new PulpiteFragment());
                 fragmentTransaction.commit();
             }
         });

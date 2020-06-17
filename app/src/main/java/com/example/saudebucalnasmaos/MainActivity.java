@@ -7,12 +7,14 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.widget.FrameLayout;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
-    Toolbar toolbar;
+    //Toolbar toolbar;
     TabLayout tabLayout;
     FrameLayout frameLayout;
 
