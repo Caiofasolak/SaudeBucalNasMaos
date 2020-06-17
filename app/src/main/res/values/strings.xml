@@ -98,7 +98,5 @@ Dê preferência a suco natural e a água."
     <string name="DenteMoveu">"O dente mudou de posição?"</string>
     <string name="Luxacao">"Luxação: O elemento dental se desloca parcialmente. Presença de sangramento gengival e aparência do dente alongado ou encurtado. Procurar atendimento odontológico para reposicionamento do dente e contenção."</string>
     <string name="Concussao">"Concussão ou subluxação: Lesão de tecidos de suporte sem perda ou deslocamento do elemento dental, pode haver presença de sangramento. Recomendar alimentos macios e, se necessário, contenção semirrígida no caso da subluxação."</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
