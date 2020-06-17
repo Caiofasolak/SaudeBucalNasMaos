@@ -26,9 +26,9 @@ public class LocaisFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.locais_tab, container, false);
 
-        RecyclerView rv = (RecyclerView) rootView.findViewById(R.id.rv_recycler_view);
+        //RecyclerView rv = (RecyclerView) rootView.findViewById(R.id.rv_recycler_view);
 
-        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
+        //LinearLayoutManager llm = new LinearLayoutManager(getActivity());
 
         return rootView;
     }

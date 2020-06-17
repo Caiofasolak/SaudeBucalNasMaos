@@ -87,4 +87,18 @@ Dê preferência a suco natural e a água."
     <string name="tirismo">"Trismo"</string>
     <string name="gengivite">"Gengivite"</string>
     <string name="pulpite">"Pulpite"</string>
+    <string name="SofreuTrauma">"Sofreu um trauma na face?"</string>
+    <string name="Retorno">"Retorne ao menu principal."</string>
+    <string name="DenteSaiu">"O dente saiu todo da boca?"</string>
+    <string name="FraturouDente">"Fraturou um pedaço do dente?"</string>
+    <string name="GuardarDente">"Guarde-o em uma solução de leite gelado, soro fisiológico ou saliva e procure atendimento odontológico"</string>
+    <string name="Avulsao"> Avulsão:O dente deve ser armazenado imediatamente em leite gelado, ou soro fisiológico ou a saliva, para melhor conservação dos ligamentos. Não tente limpá-lo ou recolocá-lo na boca. Procurar atendimento odontológico o mais rápido possível. Se reimplantado em menos de 60 minutos, o prognóstico é favorável; porém, se houver demora ou se o dente for mantido seco ou em soluções não indicadas, a perda será permanente </string>
+    <string name="QuebrouDente">"Quebrou pedaço do dente?"</string>
+    <string name="QuebrouDenteOrient">"Nas fraturas em esmalte e dentina sem exposição pulpar, é dispensável o atendimento de urgência, pois o prognóstico é favorável mesmo quando o tratamento é tardio; entretanto, o atendimento odontológico é necessário para avaliação e tratamento do caso. Caso haja fratura com exposição pulpar ou de raiz o rápido atendimento após o trauma dentário oferece melhor prognóstico (acompanhamento)."</string>
+    <string name="DenteMoveu">"O dente mudou de posição?"</string>
+    <string name="Luxacao">"Luxação: O elemento dental se desloca parcialmente. Presença de sangramento gengival e aparência do dente alongado ou encurtado. Procurar atendimento odontológico para reposicionamento do dente e contenção."</string>
+    <string name="Concussao">"Concussão ou subluxação: Lesão de tecidos de suporte sem perda ou deslocamento do elemento dental, pode haver presença de sangramento. Recomendar alimentos macios e, se necessário, contenção semirrígida no caso da subluxação."</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
