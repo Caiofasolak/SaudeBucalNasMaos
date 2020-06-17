@@ -10,30 +10,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class PulpiteFragment extends Fragment {
+public class TrismoFragmentSS extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_pulpite, container, false);
+        View view = inflater.inflate(R.layout.fragment_trismo_s_s, container, false);
 
 
-        Button sim = (Button) view.findViewById(R.id.sim);
-        sim.setOnClickListener(new View.OnClickListener() {
+        Button retornar = (Button) view.findViewById(R.id.retornar);
+        retornar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new PulpiteFragmentS());
-                fragmentTransaction.commit();
-            }
-        });
-
-        Button nao = (Button) view.findViewById(R.id.nao);
-        nao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new PulpiteFragmentN());
+                fragmentTransaction.replace(R.id.frameLayout, new BlankFragment());
                 fragmentTransaction.commit();
             }
         });

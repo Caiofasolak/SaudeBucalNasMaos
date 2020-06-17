@@ -92,21 +92,21 @@ Dê preferência a suco natural e a água."
     <string name="DenteSaiu">"O dente saiu todo da boca?"</string>
     <string name="FraturouDente">"Fraturou um pedaço do dente?"</string>
     <string name="GuardarDente">"Guarde-o em uma solução de leite gelado, soro fisiológico ou saliva e procure atendimento odontológico"</string>
-    <string name="Avulsao"> Avulsão:O dente deve ser armazenado imediatamente em leite gelado, ou soro fisiológico ou a saliva, para melhor conservação dos ligamentos. Não tente limpá-lo ou recolocá-lo na boca. Procurar atendimento odontológico o mais rápido possível. Se reimplantado em menos de 60 minutos, o prognóstico é favorável; porém, se houver demora ou se o dente for mantido seco ou em soluções não indicadas, a perda será permanente </string>
-    <string name="QuebrouDente">"Quebrou pedaço do dente?"</string>
+    <string name="Avulsao"> Avulsão:O dente deve ser armazenado imediatamente em leite gelado, soro fisiológico ou saliva, para melhor conservação dos ligamentos. Não tente limpá-lo ou recolocá-lo na boca. Procurar atendimento odontológico o mais rápido possível. Se reimplantado em menos de 60 minutos, o prognóstico é favorável; porém, se houver demora ou se o dente for mantido seco ou em soluções não indicadas, a perda será permanente </string>
+    <string name="QuebrouDente">"Quebrou um pedaço do dente?"</string>
     <string name="QuebrouDenteOrient">"Nas fraturas em esmalte e dentina sem exposição pulpar, é dispensável o atendimento de urgência, pois o prognóstico é favorável mesmo quando o tratamento é tardio; entretanto, o atendimento odontológico é necessário para avaliação e tratamento do caso. Caso haja fratura com exposição pulpar ou de raiz o rápido atendimento após o trauma dentário oferece melhor prognóstico (acompanhamento)."</string>
     <string name="DenteMoveu">"O dente mudou de posição?"</string>
     <string name="Luxacao">"Luxação: O elemento dental se desloca parcialmente. Presença de sangramento gengival e aparência do dente alongado ou encurtado. Procurar atendimento odontológico para reposicionamento do dente e contenção."</string>
-    <string name="Concussao">"Concussão ou subluxação: Lesão de tecidos de suporte sem perda ou deslocamento do elemento dental, pode haver presença de sangramento. Recomendar alimentos macios e, se necessário, contenção semirrígida no caso da subluxação."</string>
+    <string name="Concussao">"Concussão ou subluxação: Lesão de tecidos de suporte sem perda ou deslocamento do elemento dental, pode haver presença de sangramento. Recomenda-se alimentos macios e, se necessário, contenção semirrígida no caso da subluxação."</string>
     <string name="Aftas">Ferida na boca:\nApareceu menos de 14 dias?</string>
     <string name="Pericoronarite">"O dente está irrompendo e há uma inflamação ao redor?"</string>
     <string name="Gengivite">"A gengiva está sangrando?"</string>
     <string name="Trismo">"Está com limitação de abertura bucal?"</string>
     <string name="Pulpite">"Está com dor no dente?"</string>
-    <string name="AftasN">"Ferida na boca há mais de 14 dias: procurar atendimento odontológico"</string>
+    <string name="AftasN">"Ferida na boca há mais de 14 dias: procurar atendimento odontológico."</string>
     <string name="AftasS">"São esbranquiçadas, com bordas vermelhas, dolorosas, que aparecem na superfície da mucosa bucal, na língua, no lábio interno, na bochecha, no palato (céu da boca) e raramente na região da garganta?"</string>
-    <string name="AftasSS">" Você consumiu alimentos mais condimentados, frutas cítricas/ácidas; vivenciou por estresse ou mudanças hormonais nos ciclos da mulher; teve pequeno trauma mecânico por pontas pontiagudas ou escovas dentais; teve queimaduras por alimentos sólidos ou líquidos; faz uso de alguns medicamentos"</string>
-    <string name="AftasSN">"Procurar atendimento odontológico"</string>
+    <string name="AftasSS">" Você consumiu alimentos mais condimentados, frutas cítricas/ácidas; vivenciou por estresse ou mudanças hormonais nos ciclos da mulher; teve pequeno trauma mecânico por pontas pontiagudas ou escovas dentais; teve queimaduras por alimentos sólidos ou líquidos; faz uso de alguns medicamentos?"</string>
+    <string name="AftasSN">"Procurar atendimento odontológico."</string>
     <string name="AftasSSS">"As aftas : aparecem em qualquer idade e com mais frequência no sexo feminino. Por tratar-se de um problema frequente e sem complicações, embora as aftas sejam bastante incômodas, algumas pessoas deixam de observar que as lesões devem desaparecer num período de 10 a 14 dias.\n
 Caso o problema persista por mais tempo, devem procurar os serviços de saúde para uma avaliação mais detalhada.\n
 Como forma de tratamento, destaca-se a higiene bucal adequada, alimentação menos ácida, com sucos naturais não cítricos, uso de enxaguatórios sem álcool; pomadas ou cremes e analgésicos devem ser prescritos pelo dentista e servem para aliviar sintomatologia."</string>
@@ -117,7 +117,7 @@ Acomete mais pessoas de 20 a 29 anos.
 O tratamento deve ser indicado pelo cirurgião dentista, que poderá ser conservador nos casos em que a pericoronarite está restrita e bem localizada.\n
 Nos casos onde a pericoronarite é mais severa, é necessário antibioticoterapia."</string>
     <string name="PericoronariteN">"Procure um dentista."</string>
-    <string name="TrismoS">"Você tem disfunção temporomandibularou se submeteu a extração dentária (principalmente de siso)?"</string>
+    <string name="TrismoS">"Você tem disfunção temporomandibular ou se submeteu a extração dentária (principalmente de siso)?"</string>
     <string name="TrismoSS">"Trismo é um espasmo muscular, caracterizado por uma contração súbita e involuntária causando dor e restrição dos movimentos o que limita a abertura da boca.
 Provável causa: processo inflamatório e em função das injeções anestésicas locais, mas também está associado a pacientes acometidos por neoplasias de cabeça e pescoço.
 Causa desconforto e dificuldade na hora da higienização oral e da alimentação. Quando necessário, está indicado para o tratamento do trismo o uso de anti-inflamatórios não esteróides, relaxantes musculares bem como terapias físicas através do uso de calor."</string>
@@ -137,7 +137,5 @@ A avaliação deve ser realizada pelo dentista para que a confirmação e o tra
     <string name="PulpiteSN">"Pode ser já o sintoma doloroso de cárie dentaria ou restauração que quebrou ou ‘soltou’. Procure um dentista."</string>
     <string name="Carie1">"Você já teve dor de dente alguma vez na vida?\nÉ uma experiência bastante incômoda, pode iniciar de forma leve e continuar até ficar extremamente desconfortável. As causas mais comuns são cárie dentária, doenças gengivais (exemplo, sangramento) e até trauma dentário."</string>
     <string name="Carie2">"A Figura acima mostra a evolução da cárie dentária. Ela inicia, primeiro, na camada de esmalte e provavelmente, não há dor ainda. Com o tempo, a cárie dentária evolui e pode chegar até a polpa dentária (a camada mais interna) causando muito desconforto e dor dentária. A cárie dentária é a principal causa para dor de dente."</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

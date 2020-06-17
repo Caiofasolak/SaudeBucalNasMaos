@@ -4,9 +4,11 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 public class TrismoFragment extends Fragment {
 
@@ -15,13 +17,13 @@ public class TrismoFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_trismo, container, false);
 
-        /*
+
         Button sim = (Button) view.findViewById(R.id.sim);
         sim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new TraumaFragmentS1());
+                fragmentTransaction.replace(R.id.frameLayout, new TrismoFragmentS());
                 fragmentTransaction.commit();
             }
         });
@@ -31,10 +33,10 @@ public class TrismoFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new TraumaFragmentN1());
+                fragmentTransaction.replace(R.id.frameLayout, new TrismoFragmentN());
                 fragmentTransaction.commit();
             }
-        });*/
+        });
 
         return view;
     }

@@ -79,7 +79,7 @@ public class BlankFragment extends Fragment{
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new PulpiteFragment());
+                fragmentTransaction.replace(R.id.frameLayout, new CarieFragment());
                 fragmentTransaction.commit();
             }
         });

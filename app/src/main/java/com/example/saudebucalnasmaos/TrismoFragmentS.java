@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class PulpiteFragment extends Fragment {
+public class TrismoFragmentS extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_pulpite, container, false);
+        View view = inflater.inflate(R.layout.fragment_trismo_s, container, false);
 
 
         Button sim = (Button) view.findViewById(R.id.sim);
@@ -23,7 +23,7 @@ public class PulpiteFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new PulpiteFragmentS());
+                fragmentTransaction.replace(R.id.frameLayout, new TrismoFragmentSS());
                 fragmentTransaction.commit();
             }
         });
@@ -33,7 +33,7 @@ public class PulpiteFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, new PulpiteFragmentN());
+                fragmentTransaction.replace(R.id.frameLayout, new TrismoFragmentSN());
                 fragmentTransaction.commit();
             }
         });
