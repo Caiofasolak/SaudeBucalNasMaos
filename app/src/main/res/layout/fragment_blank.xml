@@ -210,7 +210,6 @@
             android:id="@+id/ufmg"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:clickable="true"
             android:src="@drawable/ufmg"></ImageView>
 
         <TextView
