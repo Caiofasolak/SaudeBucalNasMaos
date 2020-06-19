@@ -8,219 +8,255 @@
     android:layout_height="match_parent"
     tools:context=".BlankFragment">
 
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/traumatismo"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toTopOf = "@+id/parent"
-        tools:layout_editor_absoluteX="10dp">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/traumatismo_img"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:paddingLeft="4dp"
-            android:src="@drawable/thumb_trauma"></ImageView>
-
-        <Button
-            android:clickable="true"
-            style="?android:attr/borderlessButtonStyle"
-            android:backgroundTint="#FFFFFF"
-            android:id="@+id/traumatismo_button"
-            android:layout_width="wrap_content"
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/trauma_dentario" />
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/aftas"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="4dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/traumatismo"
-        tools:layout_editor_absoluteX="0dp">
-
-        <ImageView
-            android:id="@+id/aftas_img"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:clickable="true"
-            android:paddingLeft="4dp"
-            android:src="@drawable/aftas"></ImageView>
-
-        <Button
-            android:id="@+id/aftas_button"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:backgroundTint="#FFFFFF"
-            android:clickable="true"
-            android:text="@string/aftas" />
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/pericoronarite"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="8dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/aftas"
-        tools:layout_editor_absoluteX="10dp">
+            android:orientation="vertical">
 
 
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/pericoronarite_img"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/pericoronarite"></ImageView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/autoras"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pulpite">
 
-        <Button
-            android:clickable="true"
-            style="?android:attr/borderlessButtonStyle"
-            android:backgroundTint="#FFFFFF"
-            android:id="@+id/pericoronarite_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/pericoronarite" />
+                <ImageView
+                    android:id="@+id/ufmg"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ufmg"></ImageView>
 
-    </android.support.v7.widget.CardView>
+                <TextView
+                    android:id="@+id/autoras_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:text="@string/autoras" />
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/gengivite"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="8dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/trismo"
-        tools:layout_editor_absoluteX="10dp">
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/pulpite"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/autoras"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gengivite">
+
+                <ImageView
+                    android:id="@+id/pulpite_img"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/pulpite"></ImageView>
+
+                <Button
+                    android:id="@+id/pulpite_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:clickable="true"
+                    android:text="@string/pulpite" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/trismo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/gengivite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pericoronarite">
 
 
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/gengivite_img"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/gengivite"></ImageView>
+                <ImageView
+                    android:id="@+id/trismo_img"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/trismo"></ImageView>
 
-        <Button
-            android:clickable="true"
-            style="?android:attr/borderlessButtonStyle"
-            android:backgroundTint="#FFFFFF"
-            android:id="@+id/gengivite_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/gengivite" />
+                <Button
+                    android:id="@+id/trismo_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:clickable="true"
+                    android:text="@string/tirismo" />
 
-    </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/trismo"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="8dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/pericoronarite"
-        tools:layout_editor_absoluteX="10dp">
+            <android.support.v7.widget.CardView
+                android:id="@+id/gengivite"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/pulpite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/trismo">
 
 
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/trismo_img"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/trismo"></ImageView>
+                <ImageView
+                    android:id="@+id/gengivite_img"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/gengivite"></ImageView>
 
-        <Button
-            android:clickable="true"
-            style="?android:attr/borderlessButtonStyle"
-            android:backgroundTint="#FFFFFF"
-            android:id="@+id/trismo_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/tirismo" />
+                <Button
+                    android:id="@+id/gengivite_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:clickable="true"
+                    android:text="@string/gengivite" />
 
-    </android.support.v7.widget.CardView>
+            </android.support.v7.widget.CardView>
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/pulpite"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="8dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/gengivite"
-        tools:layout_editor_absoluteX="10dp">
+            <android.support.v7.widget.CardView
+                android:id="@+id/pericoronarite"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/trismo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aftas">
 
-        <ImageView
-            android:clickable="true"
-            android:id="@+id/pulpite_img"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/pulpite"></ImageView>
 
-        <Button
-            android:clickable="true"
-            style="?android:attr/borderlessButtonStyle"
-            android:backgroundTint="#FFFFFF"
-            android:id="@+id/pulpite_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/pulpite" />
+                <ImageView
+                    android:id="@+id/pericoronarite_img"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:src="@drawable/pericoronarite"></ImageView>
 
-    </android.support.v7.widget.CardView>
+                <Button
+                    android:id="@+id/pericoronarite_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:clickable="true"
+                    android:text="@string/pericoronarite" />
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/autoras"
-        android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:layout_marginTop="8dp"
-        android:padding="4dp"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@+id/gengivite"
-        tools:layout_editor_absoluteX="10dp">
+            </android.support.v7.widget.CardView>
 
-        <ImageView
-            android:id="@+id/ufmg"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/ufmg"></ImageView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/aftas"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/pericoronarite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/traumatismo">
 
-        <TextView
-            android:id="@+id/autoras_button"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="265dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:backgroundTint="#FFFFFF"
-            android:text="@string/autoras" />
+                <ImageView
+                    android:id="@+id/aftas_img"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:paddingLeft="4dp"
+                    android:src="@drawable/aftas"></ImageView>
 
-    </android.support.v7.widget.CardView>
+                <Button
+                    android:id="@+id/aftas_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:clickable="true"
+                    android:text="@string/aftas" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/traumatismo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="8dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/aftas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/traumatismo_img"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:paddingLeft="4dp"
+                    android:src="@drawable/thumb_trauma"></ImageView>
+
+                <Button
+                    android:id="@+id/traumatismo_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#FFFFFF"
+                    android:clickable="true"
+                    android:text="@string/trauma_dentario" />
+
+            </android.support.v7.widget.CardView>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
 
 </LinearLayout>
