@@ -105,7 +105,7 @@ Dê preferência a suco natural e a água."
     <string name="Pulpite">"Está com dor no dente?"</string>
     <string name="AftasN">"Ferida na boca há mais de 14 dias: procurar atendimento odontológico."</string>
     <string name="AftasS">"São esbranquiçadas, com bordas vermelhas, dolorosas, que aparecem na superfície da mucosa bucal, na língua, no lábio interno, na bochecha, no palato (céu da boca) e raramente na região da garganta?"</string>
-    <string name="AftasSS">" Você consumiu alimentos mais condimentados, frutas cítricas/ácidas; vivenciou por estresse ou mudanças hormonais nos ciclos da mulher; teve pequeno trauma mecânico por pontas pontiagudas ou escovas dentais; teve queimaduras por alimentos sólidos ou líquidos; faz uso de alguns medicamentos?"</string>
+    <string name="AftasSS">" Você consumiu alimentos mais condimentados, frutas cítricas/ácidas; passou por momentos estressantes ou mudanças hormonais nos ciclos da mulher; teve pequeno trauma mecânico por pontas pontiagudas ou escovas dentais; teve queimaduras por alimentos sólidos ou líquidos; faz uso de alguns medicamentos?"</string>
     <string name="AftasSN">"Procurar atendimento odontológico."</string>
     <string name="AftasSSS">"As aftas : aparecem em qualquer idade e com mais frequência no sexo feminino. Por tratar-se de um problema frequente e sem complicações, embora as aftas sejam bastante incômodas, algumas pessoas deixam de observar que as lesões devem desaparecer num período de 10 a 14 dias.\n
 Caso o problema persista por mais tempo, devem procurar os serviços de saúde para uma avaliação mais detalhada.\n
@@ -120,14 +120,14 @@ Nos casos onde a pericoronarite é mais severa, é necessário antibioticoterapi
     <string name="TrismoS">"Você tem disfunção temporomandibular ou se submeteu a extração dentária (principalmente de siso)?"</string>
     <string name="TrismoSS">"Trismo é um espasmo muscular, caracterizado por uma contração súbita e involuntária causando dor e restrição dos movimentos o que limita a abertura da boca.
 Provável causa: processo inflamatório e em função das injeções anestésicas locais, mas também está associado a pacientes acometidos por neoplasias de cabeça e pescoço.
-Causa desconforto e dificuldade na hora da higienização oral e da alimentação. Quando necessário, está indicado para o tratamento do trismo o uso de anti-inflamatórios não esteróides, relaxantes musculares bem como terapias físicas através do uso de calor."</string>
-    <string name="TrismoN">"Volte para o menu inicial."</string>
+Causa desconforto e dificuldade na hora da higienização oral e da alimentação. Quando necessário, está indicado para o tratamento do trismo o uso de anti-inflamatórios não esteróides, relaxantes musculares, ambos devem ser prescritos pelo dentista, bem como terapias físicas através do uso de calor."</string>
+    <string name="TrismoN">"Limitação na abertura bucal pode relacionar com histórico de trauma, tumor, estresse e problemas relacionados ao sistema nervoso central. è necessário consultar um profissional de saúde para melhor diagnóstico."</string>
     <string name="GengiviteS">"Tem o costume de usar fio dental todos os dias e escovação satisfatória?"</string>
-    <string name="GengiviteSS">"Parabéns, a melhor prevenção para a não ocorrência de gengivite é a escovação associada ao uso de fio dental."</string>
+    <string name="GengiviteSS">"Sangramento na gengiva pode ser sinal de alerta para a saúde do corpo, pois pode estar relacionada a carência de vitamina K, anemia, leucemia, alterações hormonais, desordens hemorrágicas, queda da resistência e diabetes é necessário ir ao dentista ou médico para avaliar."</string>
     <string name="GengiviteSN">"A gengivite mais comum é a induzida pela placa dental (uma película viscosa e incolor de bactérias que se forma constantemente nos dentes e gengiva).
 Se a placa não for removida pela escovação e uso de fio dental diários, ela produz toxinas (ácidos) que irritam a mucosa da gengiva causando a gengivite.
 Se não tratada pode progredir para perda óssea, a periodontite, no qual pode ocasionar na perda dentária."</string>
-    <string name="GengiviteN">"Volte para o menu inicial."</string>
+    <string name="GengiviteN">"Sangramento na gengiva pode ser sinal de alerta para a saúde do corpo, pois pode estar relacionada a carência de vitamina K, anemia, leucemia, alterações hormonais, desordens hemorrágicas, queda da resistência e diabetes é necessário ir ao dentista ou médico para avaliar."</string>
     <string name="PulpiteS">"A dor é constante e piora à noite ou com alimentos quentes ou frios?"</string>
     <string name="PulpiteSS">"A pulpite é a inflamação da polpa dentária, camada mais interna do dente cuja função principal é manter sua vitalidade.
 O principal sintoma é a dor, que pode ser muito intensa, e costuma piorar na presença de estímulos, como mastigação ou ingestão de bebidas e alimentos quentes ou frios. 
@@ -137,5 +137,5 @@ A avaliação deve ser realizada pelo dentista para que a confirmação e o tra
     <string name="PulpiteSN">"Pode ser já o sintoma doloroso de cárie dentaria ou restauração que quebrou ou ‘soltou’. Procure um dentista."</string>
     <string name="Carie1">"Você já teve dor de dente alguma vez na vida?\nÉ uma experiência bastante incômoda, pode iniciar de forma leve e continuar até ficar extremamente desconfortável. As causas mais comuns são cárie dentária, doenças gengivais (exemplo, sangramento) e até trauma dentário."</string>
     <string name="Carie2">"A Figura acima mostra a evolução da cárie dentária. Ela inicia, primeiro, na camada de esmalte e provavelmente, não há dor ainda. Com o tempo, a cárie dentária evolui e pode chegar até a polpa dentária (a camada mais interna) causando muito desconforto e dor dentária. A cárie dentária é a principal causa para dor de dente."</string>
-
+    <string name="autoras">"Autoras:\nProfª. Fabiana Vargas Ferreira e Lia Castilho\nDentista: Thais de Faria Fonseca Macedo"</string>
 </resources>

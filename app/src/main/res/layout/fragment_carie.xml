@@ -47,7 +47,7 @@
                 android:id="@+id/trauma_text2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Carie1"
+                android:text="@string/Carie2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 app:layout_constraintBottom_toTopOf="@id/retornar"
                 app:layout_constraintEnd_toEndOf="parent"
