@@ -21,6 +21,36 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/logos"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/autoras">
+
+                <ImageView
+                    android:id="@+id/logos"
+                    android:layout_gravity="start"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/odontoufmg"></ImageView>
+
+                <ImageView
+                    android:id="@+id/logos1"
+                    android:layout_gravity="end"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/posgraduacao"></ImageView>
+
+            </android.support.v7.widget.CardView>
+
 
             <android.support.v7.widget.CardView
                 android:id="@+id/autoras"
@@ -30,7 +60,7 @@
                 android:padding="4dp"
                 app:cardCornerRadius="4dp"
                 app:cardElevation="4dp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/logos"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +75,7 @@
                 <TextView
                     android:id="@+id/autoras_button"
                     style="?android:attr/borderlessButtonStyle"
-                    android:layout_width="265dp"
+                    android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:backgroundTint="#FFFFFF"
